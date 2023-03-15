@@ -7,7 +7,7 @@ const initialState = {
 
 // Async thunk to fetch Cryptos
 export const fetchCryptos = createAsyncThunk('cryptos/fetchCryptos', async () => {
-    const response = await fetch(`https://api.coinlayer.com/list?access_key=${process.env.REACT_APP_APP_ID}`);
+    const response = await fetch(`http://api.coinlayer.com/list?access_key=01dbb2cbc1afa0929636cd085667ff12`);
     const data = await response.json();
     return data;
   });
