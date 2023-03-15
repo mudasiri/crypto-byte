@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body{
   margin: 0;
   padding: 0;
   color: #fff;
   background-color: #fb5092;
+  font-family: Lato;
 }
 
 h1, h2, ul{
@@ -37,8 +39,8 @@ header{
 
 .crypto-item{
   display: flex;
-  justify-content: space-around;
-  padding: 20px 0;
+  justify-content: space-between;
+  padding: 20px 10px;
 }
 
 .crypto-item img{
@@ -47,4 +49,9 @@ header{
 
 li:nth-child(even){
   background-color: #ec4c8a !important;
+}
+
+.crypto-meta{
+  display: flex;
+gap: 10px;
 }

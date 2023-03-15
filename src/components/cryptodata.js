@@ -4,7 +4,7 @@ import { fetchCryptos } from '../redux/cryptoData/cryptoDataSlice';
 
 function CryptoData() {
     const dispatch = useDispatch();
- // const { cryptos } = useSelector((state) => state.cryptos);
+    const { cryptos } = useSelector((state) => state.cryptos);
   const status = useSelector((state) => state.cryptos.status);
   useEffect(() => {
     dispatch(fetchCryptos());
@@ -21,46 +21,17 @@ function CryptoData() {
     <section>
       <div className="title"><h1>List of Cryptos - Live Data</h1></div>
       <ul>
-        <li className="crypto-item">
-          <h2>Bitcoin(BTC)</h2>
-          <h2>12.8(BTC)</h2>
+        {
+            cryptos.map((crypto)=>(
+          <li className="crypto-item" key={crypto.id}>
+          <div className='crypto-meta'>
+          <h2>1 {crypto.name} = </h2>
+          <h2>{new Intl.NumberFormat('gh-GH').format(crypto.rate.toFixed(2))} <span> GHS</span></h2>
+          </div>
           <img src="arrow-circle.png" />
         </li>
-        <li className="crypto-item">
-          <h2>Bitcoin(BTC)</h2>
-          <h2>12.8(BTC)</h2>
-          <img src="arrow-circle.png" />
-        </li>
-        <li className="crypto-item">
-          <h2>Bitcoin(BTC)</h2>
-          <h2>12.8(BTC)</h2>
-          <img src="arrow-circle.png" />
-        </li>
-        <li className="crypto-item">
-          <h2>Bitcoin(BTC)</h2>
-          <h2>12.8(BTC)</h2>
-          <img src="arrow-circle.png" />
-        </li>
-        <li className="crypto-item">
-          <h2>Bitcoin(BTC)</h2>
-          <h2>12.8(BTC)</h2>
-          <img src="arrow-circle.png" />
-        </li>
-        <li className="crypto-item">
-          <h2>Bitcoin(BTC)</h2>
-          <h2>12.8(BTC)</h2>
-          <img src="arrow-circle.png" />
-        </li>
-        <li className="crypto-item">
-          <h2>Bitcoin(BTC)</h2>
-          <h2>12.8(BTC)</h2>
-          <img src="arrow-circle.png" />
-        </li>
-        <li className="crypto-item">
-          <h2>Bitcoin(BTC)</h2>
-          <h2>12.8(BTC)</h2>
-          <img src="arrow-circle.png" />
-        </li>
+            ))
+        }
       </ul>
     </section>
   );
