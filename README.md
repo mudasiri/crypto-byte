@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>CryptoBite App React</b></h3>
+  <h3><b>CryptoByte App React</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -9,7 +9,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[CryptoBite\] ](#-CryptoBite)
+- [📖 \[CryptoByte\] ](#-CryptoByte)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -31,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [CryptoBite] <a name="about-project"></a>
+# 📖 [CryptoByte] <a name="about-project"></a>
 
-**[CryptoBite]** is an application built for Crypto Lovers. The App displays list of crypto currencies and its related exchange rates equivalents in Ghana Cedi as well as detail data when clicked.
+**[CryptoByte]** is an application built for Crypto Lovers. The App displays list of crypto currencies and its related exchange rates equivalents in Ghana Cedi as well as detail data when clicked.
 
 ## 🛠 Built With <a name="built-with">HTML Javascript</a>
 
