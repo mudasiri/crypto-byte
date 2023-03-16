@@ -52,14 +52,6 @@
     <li>Webpack</li>
   </ul>
 </details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -91,27 +83,21 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Assuming you have git installed on your computer, please follow the steps below:
 
-<!--
-Example commands:
+    - Create a folder
+    - Navigate to that folder in the command line using the cd command
+    - Clone the repository using the following command:
+      cd my-folder
+    git@github.com:mudasiri/crypto-byte.git
+    cd crypto-byte
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+    - You will now be able to check the project with your code editor.
 
 ### Install
 
 Install this project with:
-
-Assuming you have git installed on your computer, please follow the steps below: 
-- Create a folder
-- Navigate to that folder in the command line using the `cd` command
-- Clone the repository using the following command: git clone https://github.com/mudasiri/bookstore
- 
-- You will now be able to check the project with your code editor.
+- npm install
 
 ### Usage
 
@@ -161,7 +147,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mudasiri/bookstore/issues).
+Feel free to check the [issues page](https://github.com/mudasiri/crypto-byte/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
