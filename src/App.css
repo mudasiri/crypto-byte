@@ -18,6 +18,16 @@ header{
   text-align: center;
 }
 
+.detailHeader{
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+}
+
+.detailHeader img{
+  height: 30px;
+}
 .intro{
   background-color: #fb5092;
   height: 170px;
@@ -48,6 +58,10 @@ header{
 }
 
 li:nth-child(even){
+  background-color: #ec4c8a !important;
+}
+
+.evenItem{
   background-color: #ec4c8a !important;
 }
 

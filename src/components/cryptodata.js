@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { fetchCryptos } from '../redux/cryptoData/cryptoDataSlice';
+import Intro from './intro';
+import Navbar from './navBar';
 
 function CryptoData() {
     const dispatch = useDispatch();
@@ -18,6 +21,9 @@ function CryptoData() {
     );
   }
   return (
+    <>
+    <Navbar />
+    <Intro />
     <section>
       <div className="title"><h1>List of Cryptos - Live Data</h1></div>
       <ul>
@@ -28,12 +34,13 @@ function CryptoData() {
           <h2>1 {crypto.name} = </h2>
           <h2>{new Intl.NumberFormat('gh-GH').format(crypto.rate.toFixed(2))} <span> GHS</span></h2>
           </div>
-          <img src="arrow-circle.png" />
+          <Link to={`/details/:${crypto.id}`} > <img src="arrow-circle.png"/> </Link>
         </li>
             ))
         }
       </ul>
     </section>
+    </>
   );
 }
 

@@ -1,14 +1,15 @@
 import './App.css';
 import CryptoData from './components/cryptodata';
-import Intro from './components/intro';
-import Navbar from './components/navBar';
+import { Routes, Route } from 'react-router-dom';
+import CryptoDetail from './components/cryptoDetail';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Intro />
-      <CryptoData />
+      <Routes>
+      <Route path="/" element={<CryptoData />} />
+      <Route path="/details/:id" element={<CryptoDetail />} />
+      </Routes>
     </>
   );
 }
