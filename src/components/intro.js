@@ -1,5 +1,5 @@
 import React from 'react';
-import cryptoLogo from "../cryptocurrency.png"
+import cryptoLogo from '../cryptocurrency.png';
 
 function Intro() {
   return (

@@ -1,34 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-body{
+
+body {
   margin: 0;
   padding: 0;
   color: #fff;
   background-color: #fb5092;
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
 }
 
-h1, h2, ul{
+h1,
+h2,
+ul {
   margin: 0;
   padding: 0;
 }
 
-header{
+header {
   background-color: #ec4c8a;
   padding: 10px 0;
   text-align: center;
 }
 
-.detailHeader{
+.detailHeader {
   display: flex;
   justify-content: flex-start;
   gap: 20px;
   align-items: center;
 }
 
-.detailHeader img{
+.detailHeader img {
   height: 30px;
 }
-.intro{
+
+.intro {
   background-color: #fb5092;
   height: 170px;
   text-align: right;
@@ -37,35 +41,35 @@ header{
   align-items: center;
 }
 
-.intro img{
+.intro img {
   height: 110px;
   width: 110px;
 }
 
-.title{
+.title {
   background-color: #ec4c8a;
   font-size: 1em;
 }
 
-.crypto-item{
+.crypto-item {
   display: flex;
   justify-content: space-between;
   padding: 20px 10px;
 }
 
-.crypto-item img{
+.crypto-item img {
   width: 30px;
 }
 
-li:nth-child(even){
+li:nth-child(even) {
   background-color: #ec4c8a !important;
 }
 
-.evenItem{
+.evenItem {
   background-color: #ec4c8a !important;
 }
 
-.crypto-meta{
+.crypto-meta {
   display: flex;
-gap: 10px;
+  gap: 10px;
 }
