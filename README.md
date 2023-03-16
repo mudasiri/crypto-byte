@@ -164,7 +164,7 @@ If you like this project give a 🌟.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank microverse for a good documentation.
-I would like to thank [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs) for a good ui design on behance which was used as a UI guide for this project.
+I would like to thank [Nelson Sakwa](https://behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
