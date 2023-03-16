@@ -73,7 +73,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mudasiri.github.io/bookstore/dist/)
+- [Live Demo Link](https://cryptobyte-react-app.onrender.com)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
