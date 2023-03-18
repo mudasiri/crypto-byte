@@ -8,7 +8,7 @@ const initialState = {
 
 // Async thunk to fetch Cryptos
 export const fetchCryptos = createAsyncThunk('cryptos/fetchCryptos', async () => {
-  const response = await fetch('http://api.coinlayer.com/live?access_key=26c350c08732798f37b02a134b20b7d2&expand=1&target=GHS&symbols=BTC,ETC,DASH,SMART,TESLA,ADA');
+  const response = await fetch('http://api.coinlayer.com/live?access_key=26c350c08732798f37b02a134b20b7d2&expand=1&target=GHS&symbols=BTC,ETC,DASH,SMART,TESLA,ADA,USDT,ALT');
   const data = await response.json();
   return data;
 });
