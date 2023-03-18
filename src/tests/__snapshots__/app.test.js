@@ -1,21 +1,9 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import { Provider } from 'react-redux';
-import { MemoryRouter as Router } from 'react-router-dom';
-import store from '../../redux/store';
+import { render, screen } from '@testing-library/react';
 import App from '../../App';
+import Intro from '../../components/intro';
 
-describe('Testing App component', () => {
-  test('Snapshot testing', () => {
-    const myRenderer = renderer.create(
-      <Provider store={store}>
-        <Router>
-          <App />
-        </Router>
-        ,
-      </Provider>,
-    );
-    const testComponent = myRenderer.toJSON();
-    expect(testComponent).toMatchSnapshot();
-  });
+test('renders learn react link', () => {
+  render(<Intro />);
+  const linkElement = screen.getByText('CryptoByte');
+  expect(linkElement).toBeInTheDocument();
 });

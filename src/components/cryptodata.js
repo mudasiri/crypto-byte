@@ -18,7 +18,7 @@ function CryptoData() {
       <div className="container">
         Loading cryptos.....
       </div>
-    );
+    )
   }
   return (
     <>
@@ -26,7 +26,7 @@ function CryptoData() {
       <Intro />
       <section>
         <div className="title"><h1>List of Cryptos - Live Data</h1></div>
-        <ul>
+        <ul className='grid'>
           {
             cryptos.map((crypto) => (
               <li className="crypto-item" key={crypto.id}>
