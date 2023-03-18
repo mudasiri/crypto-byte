@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing CryptoData component should fetch data from API on load 1`] = `
+<DocumentFragment>
+  <header>
+    <p>
+      Stockbyte
+    </p>
+  </header>
+  <section
+    class="intro"
+  >
+    <img
+      alt="cryto-bg"
+      src="cryptocurrency.png"
+    />
+    <div>
+      <h2>
+        CryptoByte
+      </h2>
+      <p>
+        Web App for Crypto Lovers
+      </p>
+    </div>
+  </section>
+  <section>
+    <div
+      class="title"
+    >
+      <h1>
+        List of Cryptos - Live Data
+      </h1>
+    </div>
+    <ul
+      class="grid"
+    >
+      <li
+        class="crypto-item"
+      >
+        <div
+          class="crypto-meta"
+        >
+          <h2>
+            1BTC = 
+          </h2>
+          <h2>
+            328,452.96 
+            <span>
+               GHS
+            </span>
+          </h2>
+        </div>
+        <a
+          href="/details/:BTC"
+        >
+           
+          <img
+            alt="back-arrow"
+            src="arrow-circle.png"
+          />
+           
+        </a>
+      </li>
+    </ul>
+  </section>
+  ,
+</DocumentFragment>
+`;
