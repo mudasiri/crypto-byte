@@ -163,8 +163,8 @@ If you like this project give a 🌟.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for a good documentation.
-I would like to thank [Nelson Sakwa](https://behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
+I would like to appreciate [Microverse](https://www.microverse.org/) for providing the resources and the platform for us to be a Professional full-stack developer.
+- [Ballhead App](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) - Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,6 +180,13 @@ I would like to thank [Nelson Sakwa](https://behance.net/gallery/31579789/Ballhe
 - **[How to start the app]**
 
   - [run npm start]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💎 Useful Resources
+
+=======
+- [Coin Layer API](https://coinlayer.com/) - Simple Restful API to get information about Crypto Currrency
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
