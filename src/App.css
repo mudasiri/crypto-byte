@@ -53,9 +53,9 @@ header {
   padding: 5px 10px;
 }
 
-.grid{
+.grid {
   display: grid;
-grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
 .crypto-item {
